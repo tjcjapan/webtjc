@@ -32,3 +32,9 @@ Thumbs.db
 nbproject/* # NetBeans
 .vscode # Visual Studio Code
 .sass-cache/ # Sass preprocessor
+.idea/workspace.xml
+.idea/vcs.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/webtjc.iml
+.idea/modules.xml
+.idea/deployment.xml
