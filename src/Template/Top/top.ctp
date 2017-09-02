@@ -42,7 +42,7 @@
     <!--PC用（481px以上端末）メニュー-->
     <nav id="menubar">
         <ul>
-            <li class="menuimg menu1"><a href="index.html">Home</a></li>
+            <li class="menuimg menu1"><a href="index.html">トップ</a></li>
             <li class="menuimg menu2"><a href="company.html">Company</a></li>
             <li class="menuimg menu3"><a href="works.html">Works</a>
                 <ul class="ddmenu">
