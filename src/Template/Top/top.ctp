@@ -12,25 +12,25 @@
             <h2>真イエス教会｜日本</h2>
 
             <div class="list">
-                <a href="works1.html">
+                <a href="/church/tokyo">
                     <img src="img/sample1.jpg" alt="" class="img">
-                    <h4>Sample Title</h4>
+                    <h4>東京教会</h4>
                     <p>ここに説明など入れて下さい。</p>
                 </a>
             </div>
 
             <div class="list">
-                <a href="works1.html">
+                <a href="/church/sumida">
                     <img src="img/sample2.jpg" alt="" class="img">
-                    <h4>Sample Title</h4>
+                    <h4>墨田教会</h4>
                     <p>ここに説明など入れて下さい。</p>
                 </a>
             </div>
 
             <div class="list">
-                <a href="works1.html">
+                <a href="/church/chiba">
                     <img src="img/sample3.jpg" alt="" class="img">
-                    <h4>Sample Title</h4>
+                    <h4>千葉教会</h4>
                     <p>ここに説明など入れて下さい。</p>
                 </a>
             </div>

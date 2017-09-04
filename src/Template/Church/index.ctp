@@ -23,7 +23,7 @@
                     <th>地図</th>
                     <td>
                         <div class="ggmap">
-                            <iframe src="<?= h($map); ?>" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            <iframe src="<?= h($map); ?>" width="350" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
                     </td>
                 </tr>
