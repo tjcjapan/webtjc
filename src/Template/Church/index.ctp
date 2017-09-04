@@ -21,7 +21,11 @@
                 </tr>
                 <tr>
                     <th>地図</th>
-                    <td><iframe src="<?= h($map); ?>" width="400" height="500" frameborder="0" style="border:0" allowfullscreen></iframe></td>
+                    <td>
+                        <div class="ggmap">
+                            <iframe src="<?= h($map); ?>" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        </div>
+                    </td>
                 </tr>
                 <tr>
                     <th>見出し</th>

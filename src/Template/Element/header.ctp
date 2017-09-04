@@ -31,7 +31,7 @@
 
 <header class="header">
     <div class="inner">
-        <h1 id="logo"><a href="index.html"><img src="img/logo.png" alt="Sample Company"></a></h1>
+        <h1 id="logo"><a href="/"><img src="img/logo.png" alt="Sample Company"></a></h1>
     </div>
     <!--/inner-->
 </header>
@@ -40,7 +40,7 @@
     <!--PC用（481px以上端末）メニュー-->
     <nav id="menubar">
         <ul>
-            <li class="menuimg menu1"><a href="index.html">トップ</a></li>
+            <li class="menuimg menu1"><a href="/">トップ</a></li>
             <li class="menuimg menu2"><a href="company.html">集会放送</a></li>
             <li class="menuimg menu3"><a href="works.html">教会紹介</a>
                 <ul class="ddmenu">
@@ -60,9 +60,8 @@
 <!--スマホ用（480px以下端末）メニュー-->
 <nav id="menubar-s">
     <ul>
-        <li class="menuimg menu1"><a href="index.html">トップ</a></li>
+        <li class="menuimg menu1"><a href="/">トップ</a></li>
         <li class="menuimg menu2"><a href="company.html">集会放送</a></li>
-        <li class="menuimg menu3"><a href="works.html">教会紹介</a></li>
         <li class="menuimg menu4"><a href="contact.html">お問い合わせ</a></li>
     </ul>
 </nav>
