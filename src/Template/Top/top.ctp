@@ -62,8 +62,8 @@
             <nav class="box1">
                 <h2>Menu</h2>
                 <ul class="submenu mb10">
-                    <li><a href="company.html">集会放送</a></li>
-                    <li><a href="contact.html">お問い合わせ</a></li>
+                    <li><a href="<?= LIVE_URL ?>">集会放送</a></li>
+                    <li><a href="/contact">お問い合わせ</a></li>
                 </ul>
             </nav>
         </div>
