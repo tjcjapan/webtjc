@@ -41,8 +41,8 @@
     <nav id="menubar">
         <ul>
             <li class="menuimg menu1"><a href="/">トップ</a></li>
-            <li class="menuimg menu2"><a href="company.html">集会放送</a></li>
-            <li class="menuimg menu3"><a href="works.html">教会紹介</a>
+            <li class="menuimg menu2"><a href=<?= LIVE_URL ?>>集会放送</a></li>
+            <li class="menuimg menu3"><a href="#">教会紹介</a>
                 <ul class="ddmenu">
                     <li><a href="/church/tokyo">東京教会</a></li>
                     <li><a href="/church/sumida">東京墨田教会</a></li>
@@ -51,7 +51,7 @@
                     <li><a href="/church/osaka">大阪祈祷所</a></li>
                 </ul>
             </li>
-            <li class="menuimg menu4"><a href="contact.html">お問合わせ</a></li>
+            <li class="menuimg menu4"><a href="/contact">お問合わせ</a></li>
         </ul>
     </nav>
 </div>
@@ -61,7 +61,7 @@
 <nav id="menubar-s">
     <ul>
         <li class="menuimg menu1"><a href="/">トップ</a></li>
-        <li class="menuimg menu2"><a href="company.html">集会放送</a></li>
-        <li class="menuimg menu4"><a href="contact.html">お問い合わせ</a></li>
+        <li class="menuimg menu2"><a href=<?= LIVE_URL ?>>集会放送</a></li>
+        <li class="menuimg menu4"><a href="/contact">お問い合わせ</a></li>
     </ul>
 </nav>
