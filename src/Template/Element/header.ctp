@@ -31,7 +31,7 @@
 
 <header class="header">
     <div class="inner">
-        <h1 id="logo"><a href="/"><img src="img/logo.png" alt="Sample Company"></a></h1>
+        <h1 id="logo"><a href="/"><img src="/img/logo.png" alt="Sample Company"></a></h1>
     </div>
     <!--/inner-->
 </header>

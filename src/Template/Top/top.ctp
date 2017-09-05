@@ -76,4 +76,11 @@
 
 <?= $this->element('footer');?>
 
+<!--スマホ用更新情報　480px以下-->
+<script type="text/javascript">
+    if (OCwindowWidth() <= 480) {
+        open_close("newinfo_hdr", "newinfo");
+    }
+</script>
+
 </html>
