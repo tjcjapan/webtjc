@@ -14,6 +14,9 @@ class ContactController extends AppController {
         $this->session = $this->request->getSession();
     }
 
+    /**
+     * 問い合わせトップページ
+     */
     public function index(){
         $this->viewBuilder()->setLayout('');
         $this->set('codes', Configure::read('Pref.codes'));
@@ -39,10 +42,16 @@ class ContactController extends AppController {
         $this->set(compact('entity'));
     }
 
+    /**
+     * 問い合わせ確認ページ
+     */
     public function confirm(){
         $this->viewBuilder()->setLayout('');
     }
 
+    /**
+     * メール配信機能
+     */
     public function send(){
         $this->viewBuilder()->setLayout('');
 
@@ -58,8 +67,7 @@ class ContactController extends AppController {
             'inquiry_type' => h($this->session->read('inquiry')),
             'inquiry_contents' => h($this->session->read('message'))];
 
-
-        // 問い合わせ内容をDBに保存する
+        // DBに保存する
         $table = TableRegistry::get('Contact');
         $entity = $table->newEntity($data);
         $table->save($entity);
@@ -87,6 +95,9 @@ class ContactController extends AppController {
         $this->redirect('/contact/complete');
     }
 
+    /**
+     * 問い合わせの完了ページ
+     */
     public function complete(){
         $this->viewBuilder()->setLayout('');
     }
