@@ -9,7 +9,7 @@ class ContactTable extends Table {
                   ->notEmpty('email', 'メールアドレスを入力してください')
                   ->add('email', 'validFormat', ['rule' => 'email', 'message' => '正しいメールアドレスを入力してください'])
                   ->notEmpty('inquiry', 'お問い合わせ項目を選択してください')
-                  ->notEmpty('message', 'お問い合わせ内容を選択してください');
+                  ->notEmpty('message', 'お問い合わせ内容を入力してください');
         return $validator;
     }
 }
