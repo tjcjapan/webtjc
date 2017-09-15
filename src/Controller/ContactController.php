@@ -84,6 +84,10 @@ class ContactController extends AppController {
         // sessionをクリアする
         $this->session->destroy();
 
-        $this->render('complete');
+        $this->redirect('/contact/complete');
+    }
+
+    public function complete(){
+        $this->viewBuilder()->setLayout('');
     }
 }
