@@ -81,6 +81,10 @@
     if (OCwindowWidth() <= 480) {
         open_close("newinfo_hdr", "newinfo");
     }
+
+    $(function(){
+        $('body').attr('id', 'top');
+    })
 </script>
 
 </html>

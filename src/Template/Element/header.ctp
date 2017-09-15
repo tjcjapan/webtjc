@@ -13,6 +13,7 @@
     <?= $this->Html->script('openclose.js') ?>
     <?= $this->Html->script('ddmenu_min.js') ?>
     <?= $this->Html->script('fixmenu.js') ?>
+    <?= $this->Html->script('jquery-3.2.1.min.js') ?>
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -27,7 +28,7 @@
     <![endif]-->
 </head>
 
-<body id="top">
+<body>
 
 <header class="header">
     <div class="inner">

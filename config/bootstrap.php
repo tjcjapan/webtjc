@@ -216,3 +216,6 @@ Type::build('timestamp')
 if (Configure::read('debug')) {
     Plugin::load('DebugKit', ['bootstrap' => false]);
 }
+
+Configure::load('pref');
+Configure::load('inquiry');
