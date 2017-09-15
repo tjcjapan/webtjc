@@ -45,6 +45,12 @@ class ContactController extends AppController {
 
     public function send(){
         $this->viewBuilder()->setLayout('');
+
+        // session切れる場合、問い合わせトップ画面に戻る
+        if (!$this->session->check('name')) {
+            return $this->redirect('/contact');
+        }
+
         $data = ['name' => h($this->session->read('name')),
             'email' => h($this->session->read('email')),
             'pref' => h($this->session->read('pref')),
