@@ -25,7 +25,7 @@ class ChurchController extends AppController {
                 $address = '埼玉県所沢市上安松341-1';
                 $tel = '+81(04)2994-8336';
                 $map = 'https://goo.gl/Roquxp';
-                $detailUrl = 'http://members.ja.tjc.org/sites/ja/jp/tokyo/mychurch.aspx';
+                $detailUrl = "<a href='http://members.ja.tjc.org/sites/ja/jp/tokyo/mychurch.aspx'>詳細紹介へ</a>";
                 $trafficGuide = '';
                 $timeGuide = '';
                 break;
