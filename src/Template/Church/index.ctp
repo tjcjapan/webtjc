@@ -16,6 +16,14 @@
                     <th colspan="2" class="tamidashi"><?= h($name); ?></th>
                 </tr>
                 <tr>
+                    <th>外観</th>
+                    <td><?= h($img); ?></td>
+                </tr>
+                <tr>
+                    <th>郵便番号</th>
+                    <td><?= h($postalCode); ?></td>
+                </tr>
+                <tr>
                     <th>所在地</th>
                     <td><?= h($address); ?></td>
                 </tr>
@@ -23,29 +31,25 @@
                     <th>地図</th>
                     <td>
                         <div class="ggmap">
-                            <iframe src="<?= h($map); ?>" width="350" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            <iframe src="<?= h($map); ?>" width="350" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
                     </td>
                 </tr>
                 <tr>
-                    <th>見出し</th>
-                    <td>ここに説明など入れて下さい。サンプルテキスト。</td>
+                    <th>電話番号</th>
+                    <td><?= h($tel); ?></td>
                 </tr>
                 <tr>
-                    <th>見出し</th>
-                    <td>ここに説明など入れて下さい。サンプルテキスト。</td>
+                    <th>礼拝案内</th>
+                    <td><?= h($timeGuide); ?></td>
                 </tr>
                 <tr>
-                    <th>見出し</th>
-                    <td>ここに説明など入れて下さい。サンプルテキスト。</td>
+                    <th>交通案内</th>
+                    <td><?= h($trafficGuide); ?></td>
                 </tr>
                 <tr>
-                    <th>見出し</th>
-                    <td>ここに説明など入れて下さい。サンプルテキスト。</td>
-                </tr>
-                <tr>
-                    <th>見出し</th>
-                    <td>ここに説明など入れて下さい。サンプルテキスト。</td>
+                    <th>詳細紹介</th>
+                    <td><?= $detailUrl; ?></td>
                 </tr>
             </table>
 

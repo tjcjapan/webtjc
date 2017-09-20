@@ -2,8 +2,8 @@
     <?= $this->Html->charset() ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="ここにサイト説明を入れます">
-    <meta name="keywords" content="キーワード１,キーワード２,キーワード３,キーワード４,キーワード５">
+    <meta name="description" content="真イエス教会">
+    <meta name="keywords" content="真イエス教会,東京教会,墨田教会,千葉教会,横浜教会,大阪祈祷所">
     <title>
         <?= TITLE ?>
     </title>
@@ -46,7 +46,7 @@
             <li class="menuimg menu3"><a href="#">教会紹介</a>
                 <ul class="ddmenu">
                     <li><a href="/church/tokyo">東京教会</a></li>
-                    <li><a href="/church/sumida">東京墨田教会</a></li>
+                    <li><a href="/church/sumida">墨田教会</a></li>
                     <li><a href="/church/chiba">千葉教会</a></li>
                     <li><a href="/church/yokohama">横浜教会</a></li>
                     <li><a href="/church/osaka">大阪祈祷所</a></li>
