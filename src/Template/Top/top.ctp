@@ -34,6 +34,22 @@
                     <p>ここに説明など入れて下さい。</p>
                 </a>
             </div>
+
+            <div class="list">
+                <a href="/church/yokohama">
+                    <img src="img/sample3.jpg" alt="" class="img">
+                    <h4>横浜教会</h4>
+                    <p>ここに説明など入れて下さい。</p>
+                </a>
+            </div>
+
+            <div class="list">
+                <a href="/church/osaka">
+                    <img src="img/sample3.jpg" alt="" class="img">
+                    <h4>大阪祈祷所</h4>
+                    <p>ここに説明など入れて下さい。</p>
+                </a>
+            </div>
         </section>
 
     </div>

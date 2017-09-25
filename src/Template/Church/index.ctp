@@ -41,15 +41,19 @@
                 </tr>
                 <tr>
                     <th>礼拝案内</th>
-                    <td><?= h($timeGuide); ?></td>
+                    <td><?= $timeGuide; ?></td>
                 </tr>
                 <tr>
                     <th>交通案内</th>
-                    <td><?= h($trafficGuide); ?></td>
+                    <td><?= $trafficGuide; ?></td>
                 </tr>
                 <tr>
                     <th>詳細紹介</th>
-                    <td><?= $detailUrl; ?></td>
+                    <td><a href=<?= $detailUrl; ?>>詳細紹介へ</a></td>
+                </tr>
+                <tr>
+                    <th>補足事項</th>
+                    <td><?= $remarks; ?></td>
                 </tr>
             </table>
 
