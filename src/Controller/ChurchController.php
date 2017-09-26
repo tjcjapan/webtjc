@@ -8,7 +8,7 @@ class ChurchController extends AppController {
         $this->viewBuilder()->setLayout('');
 
         $name = '東京教会';
-        $img = '';
+        $img = '/img/tokyo-d.jpg';
         $postalCode = '359-0025';
         $address = '埼玉県所沢市上安松341-1';
         $tel = '81(04)2994-8336';
@@ -33,7 +33,7 @@ EOT;
         switch ($paramVal) {
             case 'sumida':
                 $name = '墨田教会';
-                $img = '';
+                $img = '/img/sumida-d.jpg';
                 $postalCode = '131-0042';
                 $address = '東京都墨田区東墨田1-5-10';
                 $tel = '81(33)619-7233';
@@ -59,7 +59,7 @@ EOT;
                 break;
             case 'chiba':
                 $name = '千葉教会';
-                $img = '';
+                $img = '/img/chiba-d.jpg';
                 $postalCode = '272-0001';
                 $address = '千葉県市川市二俣1-8-6';
                 $tel = '81(47)312-6739';
@@ -80,7 +80,7 @@ EOT;
                 break;
             case 'yokohama':
                 $name = '横浜教会';
-                $img = '';
+                $img = '/img/yokohama-d.jpg';
                 $postalCode = '220-0042';
                 $address = '神奈川県横浜市西区戸部町4-110';
                 $tel = '81 (45) 231-2188';
@@ -102,7 +102,7 @@ EOT;
                 break;
             case 'osaka':
                 $name = '大阪祈祷所';
-                $img = '';
+                $img = '/img/osaka-d.jpg';
                 $postalCode = '359-0025';
                 $address = '大阪';
                 $tel = '03-2345-8789';

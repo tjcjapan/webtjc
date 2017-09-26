@@ -17,7 +17,7 @@
                 </tr>
                 <tr>
                     <th>外観</th>
-                    <td><?= h($img); ?></td>
+                    <td><img src=<?= $img; ?> alt=<?= $name; ?> class="detail-img"></td>
                 </tr>
                 <tr>
                     <th>郵便番号</th>
