@@ -60,13 +60,23 @@ EOT;
             case 'chiba':
                 $name = '千葉教会';
                 $img = '';
-                $postalCode = '359-0025';
-                $address = '千葉';
-                $tel = '03-2345-8789';
-                $map = 'https://goo.gl/Roquxp';
+                $postalCode = '272-0001';
+                $address = '千葉県市川市二俣1-8-6';
+                $tel = '81(47)312-6739';
+                $map = 'https://goo.gl/ozpWUh';
                 $detailUrl = '';
-                $trafficGuide = '';
-                $timeGuide = '';
+                $trafficGuide = <<<EOT
+電車でお越しの方<br/>
+西船橋駅より：<br/>
+常磐線松戸駅→武蔵野線新松戸駅→武蔵野線西船橋→徒歩13分<br/>
+EOT;
+                $timeGuide = <<<EOT
+土曜日（安息日）<br/>
+10:30 - 11:00 &nbsp;&nbsp;祈り会<br/>
+11:10 - 12:10 &nbsp;&nbsp;午前の集会<br/>
+13:30 - 14:00 &nbsp;&nbsp;讃美歌練習<br/>
+14:10 - 15:10 &nbsp;&nbsp;午後の集会
+EOT;
                 break;
             case 'yokohama':
                 $name = '横浜教会';
