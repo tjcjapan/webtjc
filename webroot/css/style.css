@@ -215,7 +215,7 @@ header .inner {
 	border: 1px solid #fff;	/*枠線の幅、線種、色*/
 	border-radius: 6px;		/*角丸のサイズ。この行削除すれば通常の長方形になる。*/
 	height: 500px;			/*(CMS専用)*/
-	height: 230px;			/*高さ（下の「.list a」の高さと揃える）*/
+	height: 452px;			/*高さ（下の「.list a」の高さと揃える）*/
 	line-height: 1.4;
 	position: relative;
 	-webkit-box-shadow: 0px 0px 3px rgba(0,0,0,0.3);	/*影の設定。右へ、下へ、ぼかし幅。rgbaは色設定で0,0,0は黒。0.2が透明度。*/
@@ -226,7 +226,7 @@ header .inner {
 	overflow: auto;
 	text-decoration: none;
 	height: 500px;	/*(CMS専用)*/
-	height: 230px;	/*高さ（上の「.list」の高さと揃える）*/
+	height: 452px;	/*高さ（上の「.list」の高さと揃える）*/
 }
 .list a:hover {
 	background: #b0cbdf;	/*マウスオン時の背景色*/
@@ -259,6 +259,7 @@ header .inner {
 }
 /*ボックス内のh4（見出し）タグ設定*/
 .list h4 {
+	padding-top: 5px;
 	padding-left: 15px;
 	padding-bottom: 5px;
 	font-size: 16px;	/*文字サイズ*/

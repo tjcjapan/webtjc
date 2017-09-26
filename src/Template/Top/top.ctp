@@ -13,7 +13,7 @@
 
             <div class="list">
                 <a href="/church/tokyo">
-                    <img src="img/sample1.jpg" alt="" class="img">
+                    <img src="img/tokyo.jpg" alt="" class="img">
                     <h4>東京教会</h4>
                     <p>ここに説明など入れて下さい。</p>
                 </a>
@@ -21,7 +21,7 @@
 
             <div class="list">
                 <a href="/church/sumida">
-                    <img src="img/sample2.jpg" alt="" class="img">
+                    <img src="img/sumida.jpg" alt="" class="img">
                     <h4>墨田教会</h4>
                     <p>ここに説明など入れて下さい。</p>
                 </a>
@@ -29,7 +29,7 @@
 
             <div class="list">
                 <a href="/church/chiba">
-                    <img src="img/sample3.jpg" alt="" class="img">
+                    <img src="img/chiba.jpg" alt="" class="img">
                     <h4>千葉教会</h4>
                     <p>ここに説明など入れて下さい。</p>
                 </a>
@@ -37,7 +37,7 @@
 
             <div class="list">
                 <a href="/church/yokohama">
-                    <img src="img/sample3.jpg" alt="" class="img">
+                    <img src="img/yokohama.jpg" alt="" class="img">
                     <h4>横浜教会</h4>
                     <p>ここに説明など入れて下さい。</p>
                 </a>
@@ -45,7 +45,7 @@
 
             <div class="list">
                 <a href="/church/osaka">
-                    <img src="img/sample3.jpg" alt="" class="img">
+                    <img src="img/osaka.jpg" alt="" class="img">
                     <h4>大阪祈祷所</h4>
                     <p>ここに説明など入れて下さい。</p>
                 </a>
