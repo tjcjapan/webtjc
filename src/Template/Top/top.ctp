@@ -4,7 +4,7 @@
 
 <?= $this->element('header');?>
 
-<div class="contents bg1 mt-top">
+<div class="contents bg1 mt-top2">
     <div class="inner">
 
         <section>

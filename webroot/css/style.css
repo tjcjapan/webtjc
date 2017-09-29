@@ -18,8 +18,8 @@ body {
 }
 /*トップページの設定*/
 body#top {
-	background: #fff url(../img/mainimg_s.jpg) no-repeat center 60px;	/*背景色と背景画像の読み込み（古いブラウザ用）*/
-	background: #fff url(../img/mainimg_l.jpg) no-repeat center 60px/auto 700px;	/*背景色と背景画像の読み込み。60pxというのはheaderの高さの事。autoは画像の幅、高さは700pxで指定。*/
+	background: #fff url(../img/web001_09.gif) no-repeat center 60px;	/*背景色と背景画像の読み込み（古いブラウザ用）*/
+	background: #fff url(../img/web001_09.gif) no-repeat center 60px/auto 300px;	/*背景色と背景画像の読み込み。60pxというのはheaderの高さの事。autoは画像の幅、高さは700pxで指定。*/
 }
 
 h1,h2,h3,h4,h5,p,ul,ol,li,dl,dt,dd,form,figure,form {margin: 0px;padding: 0px;font-size: 100%;}
@@ -597,7 +597,7 @@ h2 span.option2 {
 ---------------------------------------------------------------------------*/
 .look {color:#fff;background: #666;padding:5px;border-radius: 4px;}
 .mb15,.mb1em {margin-bottom: 15px;}
-.mt-top {margin-top: 650px;}
+.mt-top {margin-top: 250px;}
 .mt-top2 {margin-top: 250px;background: rgba(255,255,255,0.7);}
 .clear {clear: both;}
 ul.disc {padding: 0em 25px 1em;list-style: disc;}
@@ -646,6 +646,10 @@ img.fl {float: left;margin-right: 10px;margin-bottom: 10px;}
 	color: red;
 }
 
+.required {
+	color: red;
+}
+
 /*画面幅800px以下の設定
 ------------------------------------------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width:800px){
@@ -654,7 +658,7 @@ img.fl {float: left;margin-right: 10px;margin-bottom: 10px;}
 ---------------------------------------------------------------------------*/
 /*トップページの設定*/
 body#top {
-	background: #fff url(../img/mainimg_l.jpg) no-repeat center 170px/auto 450px;
+	background: #fff url(../img/web001_09.gif) no-repeat center 170px/auto 450px;
 }
 
 /*ヘッダー（サイトロゴが入った最上段のブロック）
@@ -782,8 +786,8 @@ body.s-n .sub {display: none;}
 ---------------------------------------------------------------------------*/
 /*トップページの設定*/
 body#top {
-	background-image: url(../img/mainimg_s.jpg);background-repeat: no-repeat;background-position: center 70px;background-size: 400px;	/*古いスマホ用*/
-	background: #fff url(../img/mainimg_s.jpg) no-repeat center 70px/auto 350px;
+	background-image: url(../img/web001_09.gif);background-repeat: no-repeat;background-position: center 60px;background-size: 150px;	/*古いスマホ用*/
+	background: #fff url(../img/web001_09.gif) no-repeat center 60px/auto 150px;
 }
 
 /*メインメニュー
@@ -894,7 +898,7 @@ img.fr,img.fl {float: none;margin: 0;width: 100%;}
 .sh{display:block;}
 .pc{display:none;}
 .mt-top {margin-top: 350px;}
-.mt-top2 {margin-top: 100px;}
+.mt-top2 {margin-top: 140px;}
 
 .detail-img {
 	max-width: 200px;

@@ -13,10 +13,10 @@
             <h2>お問合わせ</h2>
             <table class="ta1">
                 <tr>
-                    <th colspan="2" class="tamidashi">※マークは入力必須です</th>
+                    <th colspan="2" class="tamidashi"><span class="required">※</span>マークは入力必須です</th>
                 </tr>
                 <tr>
-                    <th>お名前※</th>
+                    <th>お名前<span class="required">※</span></th>
                     <td><?= $this->Form->input('name', ['type'=>'text',
                                                         'class' => 'ws',
                                                         'label'=>false,
@@ -27,7 +27,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <th>メールアドレス※</th>
+                    <th>メールアドレス<span class="required">※</span></th>
                     <td><?= $this->Form->input('email', ['type'=>'text',
                                                          'class' => 'ws',
                                                          'label'=>false,
@@ -52,7 +52,7 @@
                     <td><?= $this->Form->input('address', ['type'=>'text', 'label'=>false, 'class' => 'wl', 'size'=>'80px']); ?></td>
                 </tr>
                 <tr>
-                    <th>お問い合わせ項目※</th>
+                    <th>お問い合わせ項目<span class="required">※</span></th>
                     <td>
                         <?= $this->Form->input('inquiry',array(
                             'type' => 'select',
@@ -66,7 +66,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <th>お問い合わせ詳細※</th>
+                    <th>お問い合わせ詳細<span class="required">※</span></th>
                     <td>
                         <?= $this->Form->textarea('message', ['cols' => 80, 'class' => 'wl', 'rows' => 8, 'required' => false, 'error' => false]);?>
                         <div class="error-message"><?= $this->Form->error('message') ?></div>
