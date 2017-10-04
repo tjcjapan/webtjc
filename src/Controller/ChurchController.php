@@ -5,6 +5,7 @@ class ChurchController extends AppController {
 
     public function index(){
         $paramVal = $this->request->param('name');
+        if ($paramVal == 'list' or empty($paramVal)) return $this->setAction('churchList');
         $this->viewBuilder()->setLayout('');
 
         $name = '東京教会';
@@ -111,8 +112,15 @@ EOT;
                 $trafficGuide = '';
                 $timeGuide = '';
                 break;
+            default :
+                return $this->redirect('/church/list');
         }
 
         $this->set(compact('name', 'img', 'postalCode', 'address', 'tel', 'map', 'detailUrl', 'trafficGuide', 'timeGuide', 'remarks'));
+    }
+
+    public function churchList(){
+        $this->viewBuilder()->setLayout('');
+        $this->render('list');
     }
 }

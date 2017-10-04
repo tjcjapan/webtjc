@@ -43,7 +43,7 @@
         <ul>
             <li class="menuimg menu1"><a href="/">トップ</a></li>
             <li class="menuimg menu2"><a href=<?= LIVE_URL ?>>集会放送</a></li>
-            <li class="menuimg menu3"><a href="#">教会紹介</a>
+            <li class="menuimg menu3"><a href="/church/list">教会紹介</a>
                 <ul class="ddmenu">
                     <li><a href="/church/tokyo">東京教会</a></li>
                     <li><a href="/church/sumida">墨田教会</a></li>
@@ -63,6 +63,7 @@
     <ul>
         <li class="menuimg menu1"><a href="/">トップ</a></li>
         <li class="menuimg menu2"><a href=<?= LIVE_URL ?>>集会放送</a></li>
+        <li class="menuimg menu3"><a href="/church/list">教会紹介</a>
         <li class="menuimg menu4"><a href="/contact">お問い合わせ</a></li>
     </ul>
 </nav>
