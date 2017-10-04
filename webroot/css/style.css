@@ -56,9 +56,9 @@ header .inner {
 }
 /*ロゴ画像*/
 #logo img {
-	width: 250px;	/*画像幅*/
-	margin-top: 18px;	/*header内でのバランスを取るために上にスペースをあける*/
-	margin-left: 10px;	/*左側にスペースをあける*/
+	width: 220px;	/*画像幅*/
+	margin-top: 15px;	/*header内でのバランスを取るために上にスペースをあける*/
+	margin-left: 15px;	/*左側にスペースをあける*/
 }
 
 /*メインメニュー
@@ -658,7 +658,7 @@ img.fl {float: left;margin-right: 10px;margin-bottom: 10px;}
 ---------------------------------------------------------------------------*/
 /*トップページの設定*/
 body#top {
-	background: #fff url(../img/web001_09.gif) no-repeat center 170px/auto 450px;
+	background: #fff url(../img/web001_09.gif) no-repeat center 170px/auto 245px;
 }
 
 /*ヘッダー（サイトロゴが入った最上段のブロック）
