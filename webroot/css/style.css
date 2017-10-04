@@ -789,7 +789,12 @@ body#top {
 	background-image: url(../img/web001_09.gif);background-repeat: no-repeat;background-position: center 60px;background-size: 150px;	/*古いスマホ用*/
 	background: #fff url(../img/web001_09.gif) no-repeat center 60px/auto 150px;
 }
-
+/*ロゴ画像*/
+#logo img {
+	width: 180px;	/*画像幅*/
+	margin-top: 15px;	/*header内でのバランスを取るために上にスペースをあける*/
+	margin-left: 10px;	/*左側にスペースをあける*/
+}
 /*メインメニュー
 ---------------------------------------------------------------------------*/
 /*メニューブロックの設定*/
