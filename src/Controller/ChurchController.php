@@ -58,6 +58,7 @@ EOT;
 14:10 - 15:10 &nbsp;&nbsp;午後の集会<br/>
 15:30 - 16:30 &nbsp;&nbsp;団契集会
 EOT;
+                $remarks = '';
                 break;
             case 'chiba':
                 $name = '千葉教会';
@@ -79,6 +80,7 @@ EOT;
 13:30 - 14:00 &nbsp;&nbsp;讃美歌練習<br/>
 14:10 - 15:10 &nbsp;&nbsp;午後の集会
 EOT;
+                $remarks = '';
                 break;
             case 'yokohama':
                 $name = '横浜教会';
@@ -101,6 +103,7 @@ EOT;
 14:10 - 15:10 &nbsp;&nbsp;午後の集会<br/>
 15:10 - 16:30 &nbsp;&nbsp;団契集会
 EOT;
+                $remarks = '';
                 break;
             case 'osaka':
                 $name = '大阪祈祷所';
@@ -112,6 +115,7 @@ EOT;
                 $detailUrl = '';
                 $trafficGuide = '';
                 $timeGuide = '';
+                $remarks = '';
                 break;
             default :
                 return $this->redirect('/church/list');
