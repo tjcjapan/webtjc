@@ -65,7 +65,7 @@
             <section id="new">
                 <h2 id="newinfo_hdr" class="close">更新情報・お知らせ</h2>
                 <dl id="newinfo">
-                    <dt>2017/10/01</dt>
+                    <dt>2017/10/xx</dt>
                     <dd>真イエス教会｜日本のホームページをリニューアルしました<span class="newicon">NEW</span></dd>
                 </dl>
             </section>
