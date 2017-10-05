@@ -74,19 +74,19 @@ class ContactController extends AppController {
 
         // 管理者にメールを送信する
         $email = new Email('default');
-//        $email->setFrom(['japan@yahoo.co.jp' => 'テスト'])
-//            ->setTo('zhimin.wang@gmo-research.jp')
-//            ->setTemplate('contact')
-//            ->setViewVars($data)
-//            ->setSubject('メールテスト(管理者)')
-//            ->send();
-//
+        $email->setFrom(['tjcjapan@outlook.jp' => '真イエス教会|日本'])
+            ->setTo('zhimin.wang@gmo-research.jp')
+            ->setTemplate('contact')
+            ->setViewVars($data)
+            ->setSubject('問い合わせ対応のご連絡')
+            ->send();
+
         // 問い合わせのものにメールを送信する
-        $email->setFrom(['japan@yahoo.co.jp' => 'テスト'])
+        $email->setFrom(['tjcjapan@outlook.jp' => '真イエス教会|日本'])
             ->setTo($this->session->read('email'))
             ->setTemplate('self')
             ->setViewVars($data)
-            ->setSubject('メールテスト(自分)')
+            ->setSubject('問い合わせのご確認')
             ->send();
 
         // sessionをクリアする
