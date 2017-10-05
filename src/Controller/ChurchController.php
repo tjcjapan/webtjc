@@ -8,30 +8,31 @@ class ChurchController extends AppController {
         if ($paramVal == 'list' or empty($paramVal)) return $this->setAction('churchList');
         $this->viewBuilder()->setLayout('');
 
-        $name = '東京教会';
-        $img = '/img/tokyo-d.jpg';
-        $postalCode = '359-0025';
-        $address = '埼玉県所沢市上安松341-1';
-        $tel = '81(04)2994-8336';
-        $map = 'https://goo.gl/a8q8iT';
-        $detailUrl = 'http://members.ja.tjc.org/sites/ja/jp/tokyo/mychurch.aspx';
-        $trafficGuide = <<<EOT
+        switch ($paramVal) {
+            case 'tokyo':
+                $name = '東京教会';
+                $img = '/img/tokyo-d.jpg';
+                $postalCode = '359-0025';
+                $address = '埼玉県所沢市上安松341-1';
+                $tel = '81(04)2994-8336';
+                $map = 'https://goo.gl/a8q8iT';
+                $detailUrl = 'http://members.ja.tjc.org/sites/ja/jp/tokyo/mychurch.aspx';
+                $trafficGuide = <<<EOT
 電車でお越しの方<br/>
 新宿駅より：<br/>
 新宿駅からJR中央線 西国分寺駅でJR武蔵野線に乗り換え、新秋津駅下車。徒歩10分。<br/>
 池袋駅より：<br/>
 池袋駅から西武池袋線の準急列車または通勤快速列車で秋津駅下車。徒歩15分。
 EOT;
-        $timeGuide = <<<EOT
+                $timeGuide = <<<EOT
 土曜日（安息日）<br/>
 10:30 - 11:00 &nbsp;&nbsp;祈り会<br/>
 11:10 - 12:10 &nbsp;&nbsp;午前の集会<br/>
 13:30 - 14:00 &nbsp;&nbsp;讃美歌練習<br/>
 14:10 - 15:10 &nbsp;&nbsp;午後の集会
 EOT;
-        $remarks = '';
-
-        switch ($paramVal) {
+                $remarks = '';
+                break;
             case 'sumida':
                 $name = '墨田教会';
                 $img = '/img/sumida-d.jpg';
@@ -115,7 +116,6 @@ EOT;
             default :
                 return $this->redirect('/church/list');
         }
-
         $this->set(compact('name', 'img', 'postalCode', 'address', 'tel', 'map', 'detailUrl', 'trafficGuide', 'timeGuide', 'remarks'));
     }
 
